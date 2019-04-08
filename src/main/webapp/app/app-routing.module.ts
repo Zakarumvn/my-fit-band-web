@@ -13,6 +13,7 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
                     path: 'admin',
                     loadChildren: './admin/admin.module#MyFitBandWebAdminModule'
                 },
+
                 ...LAYOUT_ROUTES
             ],
             { useHash: true, enableTracing: DEBUG_INFO_ENABLED }
